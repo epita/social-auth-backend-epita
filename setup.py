@@ -9,7 +9,7 @@ setup(
     license='GPL',
     packages=['epita_connect'],
     install_requires=[
-        'social-auth-core',
+        'social-auth-core[openidconnect]',
         'pyjwkest',
     ],
     include_package_data=True,
